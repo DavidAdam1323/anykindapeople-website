@@ -180,7 +180,7 @@ header {
   text-align: center;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/images/hero-bg.jpg") center bottom / cover no-repeat;
+    url("../images/hero-bg.jpg") center bottom / cover no-repeat;
 }
 .hero-content {
   max-width: 800px;
