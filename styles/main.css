@@ -1,4 +1,5 @@
 :root {
+  --bg-accent: #313131;
   --bg-primary: #f0f0f0;
   --bg-secondary: #ffffff;
   --text-primary: #1a1a1a;
@@ -172,14 +173,14 @@ header {
 
 /* Hero Section */
 .hero {
-  height: 85vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   color: var(--bg-secondary);
   text-align: center;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/images/hero-bg.jpg") no-repeat center/cover;
+    url("/images/hero-bg.jpg") center bottom / cover no-repeat;
 }
 .hero-content {
   max-width: 800px;
@@ -350,7 +351,7 @@ footer {
     right: -100%;
     width: 280px;
     height: calc(100vh - 70px);
-    background: var(--accent-secondary);
+    background: var(--bg-accent);
     flex-direction: column;
     transition: all 0.2s ease-in-out;
     box-shadow: -5px 0 15px var(--shadow);
