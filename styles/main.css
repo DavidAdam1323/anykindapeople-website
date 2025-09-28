@@ -169,7 +169,37 @@ header {
   .hamburger {
     display: flex;
   }
+
   .nav-menu {
-    display: none;
+    position: fixed;
+    top: 77px;
+    right: -100%;
+    width: 280px;
+    height: calc(100vh - 70px);
+    background: var(--accent-secondary);
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+    box-shadow: -5px 0 15px var(--shadow);
+    z-index: 99;
+    display: flex;
+  }
+
+  .menu-toggle:checked ~ .nav-menu {
+    right: 0;
+  }
+
+  .nav-menu li {
+    margin: 0;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--bg-primary);
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-menu a {
+    display: block;
+    padding: 10px 0;
+    color: var(--bg-secondary);
+    font-size: 1.1rem;
   }
 }
