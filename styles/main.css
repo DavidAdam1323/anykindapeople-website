@@ -165,6 +165,52 @@ header {
   top: 0;
 }
 
+/* Footer */
+footer {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  margin: 20px 0;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 10px;
+  transition: var(--transition);
+}
+
+.social-links a:hover {
+  background-color: var(--accent-primary);
+  transform: translateY(-5px);
+}
+
+.social-links a i {
+  font-size: 1.5rem;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
