@@ -44,7 +44,7 @@ img {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 /* Header & Navbar */
@@ -224,7 +224,8 @@ header {
 }
 
 /* Hero - About Section */
-.about {
+.about-hero-section {
+  padding: 120px 0;
   background-color: var(--bg-secondary);
 }
 

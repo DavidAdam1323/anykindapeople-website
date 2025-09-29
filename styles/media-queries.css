@@ -68,6 +68,11 @@
     gap: 25px;
   }
 
+  .about-hero-section,
+  .band-members {
+    padding: 40px 0;
+  }
+
   .section-title h2 {
     font-size: 2rem;
   }
