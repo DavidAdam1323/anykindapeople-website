@@ -2,6 +2,20 @@
   .about-content {
     flex-direction: column;
   }
+
+  .shows-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .shows-column {
+    width: 90%;
+  }
+
+  .show-card {
+    padding: 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -51,7 +65,7 @@
   }
 
   .about-content {
-    flex-direction: column;
+    gap: 25px;
   }
 
   .section-title h2 {
@@ -62,9 +76,8 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
-  .page-header,
-  .about-page {
-    padding: 30px 0;
+  .page-header {
+    padding: 40px 0;
   }
 
   .page-header h1 {
@@ -73,6 +86,11 @@
 
   .page-header p {
     font-size: 0.9rem;
+  }
+
+  .shows-container,
+  .shows-column {
+    padding: 0;
   }
 }
 
@@ -91,5 +109,13 @@
 
   .page-header h1 {
     font-size: 2rem;
+  }
+
+  .about-section {
+    padding: 40px 0;
+  }
+
+  .show-event {
+    font-size: 1rem;
   }
 }
