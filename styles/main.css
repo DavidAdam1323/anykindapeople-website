@@ -4,6 +4,7 @@
   --bg-secondary: #ffffff;
   --text-primary: #1a1a1a;
   --text-secondary: #004d61;
+  --accent-light: #82265933;
   --accent-primary: #822659;
   --accent-secondary: #3e5641;
   --shadow: rgba(0, 0, 0, 0.1);
@@ -510,20 +511,28 @@ footer {
 /* Artists Page - Starts Here */
 /* Artists Section */
 .artists-page {
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 }
 
 .artist-detail {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
+  justify-content: center;
   gap: 50px;
   margin-bottom: 80px;
+}
+
+.artist-detail:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .artist-image {
   flex: 1;
   border-radius: 10px;
   overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
   box-shadow: 0 10px 30px var(--shadow);
   transition: var(--transition);
 }
@@ -555,6 +564,7 @@ footer {
   font-size: 1.2rem;
   color: var(--accent-primary);
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .artist-bio {
@@ -571,12 +581,13 @@ footer {
 
 .influence-title {
   display: flex;
+  align-items: center;
   gap: 10px;
+  margin-bottom: 15px;
 }
 
 .influence-title h3 {
   color: var(--text-secondary);
-  margin-bottom: 15px;
   font-size: 1.3rem;
 }
 

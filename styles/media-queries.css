@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .about-content {
     flex-direction: column;
   }
@@ -15,6 +15,22 @@
 
   .show-card {
     padding: 15px;
+  }
+
+  .artist-detail,
+  .artist-detail:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .artist-detail {
+    gap: 15px;
+    border-bottom: solid 1px var(--accent-light);
+    padding-bottom: 80px;
+  }
+
+  .artist-detail:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
   }
 }
 
@@ -33,7 +49,7 @@
     flex-direction: column;
     transition: all 0.2s ease-in-out;
     box-shadow: -5px 0 15px var(--shadow);
-    z-index: 99;
+    z-index: 100;
     display: flex;
   }
 
@@ -98,19 +114,12 @@
     padding: 0;
   }
 
-  .artist-detail {
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 60px;
-  }
-
   .artist-info h2 {
     font-size: 2rem;
   }
 
   .artist-role {
     font-size: 1.1rem;
-    margin-bottom: 20px;
   }
 }
 
@@ -140,7 +149,7 @@
   }
 
   .artists-page {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
   }
 
   .artist-info h2 {
