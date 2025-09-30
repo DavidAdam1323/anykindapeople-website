@@ -97,6 +97,21 @@
   .shows-column {
     padding: 0;
   }
+
+  .artist-detail {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 60px;
+  }
+
+  .artist-info h2 {
+    font-size: 2rem;
+  }
+
+  .artist-role {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -122,5 +137,22 @@
 
   .show-event {
     font-size: 1rem;
+  }
+
+  .artists-page {
+    padding: 60px 0;
+  }
+
+  .artist-info h2 {
+    font-size: 1.8rem;
+  }
+
+  .influence-tags {
+    gap: 8px;
+  }
+
+  .influence-tag {
+    padding: 6px 12px;
+    font-size: 0.85rem;
   }
 }
