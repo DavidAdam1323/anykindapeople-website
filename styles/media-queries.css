@@ -32,6 +32,14 @@
     border-bottom: none;
     padding-bottom: 0;
   }
+
+  .contact-page {
+    padding: 45px 0 0 0;
+  }
+
+  .contact-container {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 768px) {
@@ -121,6 +129,10 @@
   .artist-role {
     font-size: 1.1rem;
   }
+
+  .contact-item {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 576px) {
@@ -163,5 +175,24 @@
   .influence-tag {
     padding: 6px 12px;
     font-size: 0.85rem;
+  }
+
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .contact-item i {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contact-form {
+    padding: 30px 15px;
+  }
+
+  .contact-image img {
+    margin-bottom: 15px;
   }
 }

@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | AnyKindaPeople</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/5d5c11f079.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="styles/media-queries.css" />
   </head>
   <body>
     <!-- Header -->
-     <header>
+    <header>
       <div class="container header-container">
         <a href="index.html" class="logo">Any<span>Kinda</span>People</a>
 
         <!-- Hamburger Icon -->
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
         <label for="menu-toggle" class="hamburger">
           <span class="ham-line"></span>
         </label>
@@ -30,29 +30,128 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-     </header>
+    </header>
 
     <!-- Page Header -->
-     <section class="page-header">
+    <section class="page-header">
       <div class="container">
         <h1>Get In Touch</h1>
+        <p>"We'd love to hear from you. Reach out for bookings or collaborations."</p>
       </div>
-     </section>
+    </section>
 
-         <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="logo">ANY <span>KINDA</span> PEOPLE</div>
-            <div class="social-links">
-                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+    <section class="contact-page">
+      <div class="container">
+        <div class="contact-container">
+          
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <!-- Contact Image -->
+            <div class="contact-image">
+              <img src="images/jam-play.jpg" alt="">
             </div>
-            <div class="copyright">
-                &copy; 2025 Any Kinda People | All Rights Reserved.
+            <h2>Contact Information</h2>
+            <div class="contact-details">
+
+              <!-- Email -->
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="contact-text">
+                  <h3>Email</h3>
+                  <p>info@anykindapeople.com</p>
+                  <p>bookings@anykindapeople.com</p>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <div class="contact-text">
+                  <h3>Phone</h3>
+                  <p>+44 7395 559610</p>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="contact-text">
+                  <h3>Location</h3>
+                  <p>South London, UK</p>
+                  <p>Available for gigs across the UK and Europe</p>
+                </div>
+              </div>
             </div>
+
+            <!-- Socials -->
+            <!-- <div class="social-links-contact">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            </div> -->
+          </div> 
+
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+
+              <!-- Name -->
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" required>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" class="form-control" required>
+              </div>
+
+              <!-- Subject -->
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" class="form-control" required>
+                  <option value="">Select a subject</option>
+                  <option value="booking">Booking Inquiry</option>
+                  <option value="collaboration">Collaboration</option>
+                  <option value="general">General Question</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" required></textarea>
+              </div>
+
+              <!-- Submit Btn -->
+              <button type="submit" class="btn">
+                Send Message 
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="logo">ANY <span>KINDA</span> PEOPLE</div>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; 2025 Any Kinda People | All Rights Reserved.
+        </div>
+      </div>
     </footer>
   </body>
 </html>
