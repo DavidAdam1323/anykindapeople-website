@@ -3,6 +3,8 @@
 A modern, fully responsive multi-page website for the South London R&B/Neo-Soul band "Any Kinda People". Built with pure HTML and CSS, showcasing modern web development techniques.
 - **🌎 Live Demo** - [View the live site here!](https://davidadam1323.github.io/anykindapeople-website/)
 
+  > _“This website marks my second challenge in the Step8up Bootcamp — another exciting step in my web development journey.”_
+
 ### Key Features
 
 - **Fully Responsive Design** - Adapts seamlessly to desktop, tablet, and mobile devices
@@ -62,9 +64,3 @@ A modern, fully responsive multi-page website for the South London R&B/Neo-Soul 
 ## Want to Connect?
 
 I am always up for a good chat about projects, collaborations, or geeking out over code (and guitars!). Drop me a message on [**LinkedIn**](https://www.linkedin.com/in/davidadamsilva/)!
-
-<div style="background: linear-gradient(135deg, #822659, #3e5641); width: 100%; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
-  <p align="center" style="font-style: italic">
-    "This website marks my second challenge in the Step8up Bootcamp; another exciting step in my web development journey."
-  </p>
-</div>
