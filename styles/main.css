@@ -237,6 +237,9 @@ header {
 }
 
 .section-title h2 {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 2.5rem;
   color: var(--text-secondary);
   display: inline-block;
@@ -286,7 +289,7 @@ header {
 
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 30px;
 }
 
@@ -305,7 +308,7 @@ header {
 }
 
 .members-image {
-  height: 250px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -322,16 +325,27 @@ header {
 
 .members-info {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  justify-content: start;
   align-items: center;
-  padding: 10px;
+  padding: 20px 50px;
 }
 
 .members-info i {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  color: var(--text-secondary);
+  background: linear-gradient(
+    135deg,
+    var(--accent-primary),
+    var(--accent-secondary)
+  );
+  color: var(--bg-secondary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  flex-shrink: 0;
 }
 
 /* Footer */
